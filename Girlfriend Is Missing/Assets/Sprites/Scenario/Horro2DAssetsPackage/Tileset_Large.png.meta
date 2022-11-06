@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -4461,9 +4461,9 @@ TextureImporter:
       Tileset_Large_86: -190033638
       Tileset_Large_156: -27292582
       Tileset_Large_59: -1357268419
-      Tileset_Large_54: 2084758925
-      Tileset_Large_73: 529339622
       Tileset_Large_190: -1837656647
+      Tileset_Large_73: 529339622
+      Tileset_Large_54: 2084758925
       Tileset_Large_49: -1201136889
       Tileset_Large_128: 837512265
       Tileset_Large_104: 1154572852
