@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 34
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 75
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 76
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -353,23 +353,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Scenario/Horro2DAssetsPackage
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Scenario/Horro2DAssetsPackage
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mvjan\Documents\Unity Projects\girlfriendIsMissing\Girlfriend
     Is Missing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: fe5f0000
-    m_LastClickedID: 24574
-    m_ExpandedIDs: 00000000b05f0000b25f0000b45f0000b65f0000b85f0000ce5f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a6630000
+    m_LastClickedID: 25510
+    m_ExpandedIDs: 00000000106300001263000014630000166300001863000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -397,7 +397,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b05f0000b25f0000b45f0000b65f0000b85f0000
+    m_ExpandedIDs: 000000001063000012630000146300001663000018630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,7 +527,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f8f6ffff2cfbffff
+      m_ExpandedIDs: 2cfbffff925f0000a05f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -798,9 +798,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.946322, y: -3.197446, z: -0.064795665}
+    m_Target: {x: 16.402485, y: -4.3982778, z: -0.19626643}
     speed: 2
-    m_Value: {x: 9.893637, y: -3.2344682, z: -0.069655985}
+    m_Value: {x: 16.38499, y: -4.4034786, z: -0.19384566}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -851,9 +851,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.314747
+    m_Target: 5.6215935
     speed: 2
-    m_Value: 10.800782
+    m_Value: 5.379515
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -939,7 +939,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
