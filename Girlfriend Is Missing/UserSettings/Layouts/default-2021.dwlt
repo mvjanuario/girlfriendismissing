@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8123
+  controlID: 6159
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 8124
+  controlID: 6123
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 8125
+  controlID: 6124
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -404,23 +404,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afaffff2cfbffffbe5f0000
+      m_ExpandedIDs: ccbbfeff06bcfeff62bdfeff66bdfeffc2bdfeffe643fffffa48ffff2649ffff7e49ffffb849ffff084affffd44cffff5a6cffffe8f5ffffeef5ffff20faffff2cfbffff0660000030600000eea200008aa30000a4af00005eb30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: TurnOff
+        m_OriginalName: TurnOff
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -74660
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -559,7 +559,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -675,9 +675,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.467459, y: -12.307174, z: 0.4228853}
+    m_Target: {x: 4.065138, y: 0.2826938, z: -8.4139595}
     speed: 2
-    m_Value: {x: 20.467459, y: -12.307174, z: 0.4228853}
+    m_Value: {x: 4.065138, y: 0.2826938, z: -8.4139595}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -728,9 +728,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.646268
+    m_Target: 9.4765835
     speed: 2
-    m_Value: 6.646268
+    m_Value: 9.4765835
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -796,23 +796,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Scenario/Horro2DAssetsPackage
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Scenario/Horro2DAssetsPackage
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mvjan\Documents\Unity Projects\girlfriendIsMissing\Girlfriend
     Is Missing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66.20001}
-    m_SelectedIDs: 32790000
-    m_LastClickedID: 31026
-    m_ExpandedIDs: 000000009a6300009c6300009e630000a0630000a2630000a463000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ec630000
+    m_LastClickedID: 25580
+    m_ExpandedIDs: 00000000d8630000da630000dc630000de630000e063000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -840,7 +840,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a6300009c6300009e630000a0630000a2630000a463000000ca9a3b
+    m_ExpandedIDs: 00000000d8630000da630000dc630000de630000e0630000e263000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -867,8 +867,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000a063000026610000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000a0630000266100008c610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -926,7 +926,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1668
+  m_LastSelectedObjectID: -74660
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -958,6 +958,7 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 7144598444805401351, guid: 34f59d5a305392f4d8f0676ab0d582f7, type: 2}
+    - {fileID: -4824378992784780095, guid: 1cd37386afd78b84a924ad22f22ad5cf, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.7743158
       e01: 0
@@ -975,10 +976,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.7743158
+      e01: 0
+      e02: 0
+      e03: -23.71576
+      e10: 0
+      e11: 0.7743158
+      e12: 0
+      e13: 61.783165
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 34f59d5a305392f4d8f0676ab0d582f7, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 1cd37386afd78b84a924ad22f22ad5cf, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 7144598444805401351, guid: 34f59d5a305392f4d8f0676ab0d582f7, type: 2}
+  - m_Target: {fileID: -4824378992784780095, guid: 1cd37386afd78b84a924ad22f22ad5cf, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
