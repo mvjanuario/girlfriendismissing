@@ -18,7 +18,7 @@ public class VerifyAnswer : MonoBehaviour
 
     public void CheckTypedAnswer (){
         if (answer.text == "LOVE" || answer.text == "love" || answer.text == "Love") {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         else{
             answer.text = "";
