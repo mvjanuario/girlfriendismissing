@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CollisionColorChange : MonoBehaviour
 {
     private bool trigged = false;
     private Renderer renderer;
     private Color standard;
+
+    [SerializeField]
+    private Text infos;
+    [SerializeField]
+    private string info;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -31,18 +37,30 @@ public class CollisionColorChange : MonoBehaviour
 
     void Update()
     {
-        if (trigged) {
+        VerifyTrigged();
+    }
+
+    private void VerifyTrigged() {
+        if (trigged)
+        {
             renderer.material.color = new Color(1, 0, 0, 1);
 
-            if(Input.GetKeyDown(KeyCode.E)) {
-                Debug.Log("Teste");
+            if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space))
+            {
+                StartCoroutine(FadeText());
             }
 
-        } else {
+        }
+        else
+        {
             renderer.material.color = standard;
         }
     }
 
-    void Blink() {
+    IEnumerator FadeText() {
+        infos.text = info;
+        infos.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2);
+        infos.gameObject.SetActive(false);
     }
 }
