@@ -19,7 +19,7 @@ public class EndSceneManager : MonoBehaviour
 
     IEnumerator FadeTexts()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1.5f);
         textDialogue.text = "You found me";
         textDialogue.gameObject.SetActive(true);
         yield return new WaitForSeconds(2);
